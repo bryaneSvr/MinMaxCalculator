@@ -18,4 +18,4 @@ That's it. Launch the application (ctrl+F5) from Visual Studio 2022 and it shoul
 Look into the https://localhost:44322/swagger/index.html for API endpoint and Request JSON contents to be provided
 
 Notes:
-1. Have provided some sample API request here for a quick walk through : https://github.com/bryaneSvr/VisitorManagement/tree/master/Resources
+1. Have provided some sample API request here : https://github.com/bryaneSvr/MinMaxCalculator/blob/master/SampleCalculation/Screenshot%202023-04-05%20152922.png
