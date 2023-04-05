@@ -173,13 +173,13 @@
 
                 if (Char.IsLetter(character))
                 {
-                    if ("GetMax(".Equals(inputString.Substring(0, 7), StringComparison.Ordinal))
+                    if (inputString.Length > 7 && "GetMax(".Equals(inputString.Substring(0, 7), StringComparison.Ordinal))
                     {
                         inputString = inputString.Substring(7);
                         tempNumber = GetMax();
                         inputString = tempNumber + inputString;
                     }
-                    else if ("GetMin(".Equals(inputString.Substring(0, 7), StringComparison.Ordinal))
+                    else if (inputString.Length > 7 && "GetMin(".Equals(inputString.Substring(0, 7), StringComparison.Ordinal))
                     {
                         inputString = inputString.Substring(7);
                         tempNumber = GetMin();
